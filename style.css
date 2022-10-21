@@ -1,8 +1,8 @@
 :root {
-  --header-footer: #2b4055;
+  --header-footer: #1e073d;
   --orangish: rgb(202, 147, 28);
   --grey: #d3d3d3;
-  --white: #fff;
+  --white: rgb(54, 6, 6);
   --stylish: rgb(34, 129, 158);
   --borders: rgb(0, 24, 26);
   --text-box: rgba(211, 211, 211, 0.61);
@@ -103,7 +103,7 @@ main {
 #intro {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 2rem;
-  color: var(--stylish);
+  color: var(--header-footer);
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -123,7 +123,7 @@ span {
 /* Formatted each column header the same for design purposes */
 .column-header {
   text-decoration: underline;
-  color: var(--stylish);
+  color: var(--header-footer);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3rem;
   text-align: center;
@@ -134,7 +134,7 @@ span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
   margin: 1.5rem;
-  color: var(--stylish);
+  color: var(--header-footer);
 
 }
 
@@ -157,7 +157,8 @@ span {
 }
 
 .project-title {
-  color: black;
+  color: var(--header-footer);
+  margin-bottom: 3px;
 }
 
 .project-languages {
@@ -167,7 +168,7 @@ span {
 
 /* Main project larger than the project 2/3 */
 .main-project img {
-  width: 100%;
+  width: 50%;
   height: auto;
   padding: 1rem;
 }
@@ -192,9 +193,11 @@ span {
 }
 
 .other-projects {
-  display: inline;
-  padding: 1rem;
-  margin: 0.5rem 0.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  position: relative;
 
 }
 
@@ -205,7 +208,8 @@ span {
 
 /* Project 2/3 are smaller than the main project */
 .other-projects img {
-  width: 80%;
+  width: 40%;
+  display: inline;
   height: auto;
   margin-bottom: 1rem;
   padding: 1rem;
@@ -264,7 +268,7 @@ span {
 }
 
 #contact-info a {
-  color: var(--stylish);
+  color: var(--header-footer);
 }
 
 /* Change header, contact info, and size of Project 2/3 on larger screens */
@@ -285,8 +289,5 @@ span {
     justify-content: space-around;
     align-items: center;
   }
-
-  .other-projects img {
-    width: 40%;
-  }
+  
 }
