@@ -4,4 +4,4 @@ and CSS variables.  I don't have any projects to showcase but will soon enough.
 
 Deployed application @ https://parsonjd.github.io/Portfolio/
 
-[![week2.png](https://i.postimg.cc/wM6ZDp21/week2.png)](https://postimg.cc/8J0ZVxqG)
+[![portfolio.png](https://i.postimg.cc/90DfYYn6/portfolio.png)](https://postimg.cc/K3yFZBFf)
