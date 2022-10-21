@@ -1,6 +1,6 @@
 # Portfolio# 
 My mobile-first, responsive portfolio page utilizing flexbox, media queries
-and CSS variables.  I don't have any projects to showcase but will soon enough.
+and CSS variables.  My first two projects have been completed and uploaded.  
 
 Deployed application @ https://parsonjd.github.io/Portfolio/
 
